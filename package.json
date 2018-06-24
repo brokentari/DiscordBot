@@ -1,0 +1,19 @@
+{
+  "name": "Ryan",
+  "version": "1.0.0",
+  "description": "best",
+  "main": "main.js",
+  "scripts": {
+    "compile": "tsc -p tsconfig.json"
+  },
+  "author": "Winnie Feng",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "discord.js": "^11.3.2",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.5",
+    "typescript": "^2.9.2"
+  }
+}
