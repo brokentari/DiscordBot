@@ -1,2 +1,2 @@
-#Discord Bot for NEU
+# Discord Bot for NEU
 WIP
