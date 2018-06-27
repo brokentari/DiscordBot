@@ -60,6 +60,10 @@ bot.on("message", async message => {
       }
     }
 
+    if (cmd == 'Test') {
+        message.channel.send('test successful');
+    }
+
     if (cmd === "listemojis") {
       const emojiList = message.guild.emojis.map(e=>e.toString()).join(" ");
       message.channel.send(emojiList);
